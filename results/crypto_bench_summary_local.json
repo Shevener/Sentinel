@@ -1,0 +1,361 @@
+{
+  "cpus": 16,
+  "envelope_bytes": 1406,
+  "go": "go1.27.4-X:nodwarf5",
+  "payload_bytes": 118,
+  "repeats": 5,
+  "stats": [
+    {
+      "Op": "sha256",
+      "Param": "-",
+      "Payload": 256,
+      "Mean": 169.4,
+      "SD": 1.140175425099138,
+      "N": 5
+    },
+    {
+      "Op": "sha256",
+      "Param": "-",
+      "Payload": 1024,
+      "Mean": 495.4,
+      "SD": 3.646916505762094,
+      "N": 5
+    },
+    {
+      "Op": "sha256",
+      "Param": "-",
+      "Payload": 16384,
+      "Mean": 7075.2,
+      "SD": 131.4826984815873,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_seal",
+      "Param": "AES-128-GCM",
+      "Payload": 256,
+      "Mean": 160.6,
+      "SD": 1.140175425099138,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_open",
+      "Param": "AES-128-GCM",
+      "Payload": 256,
+      "Mean": 153,
+      "SD": 3.3166247903554,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_seal",
+      "Param": "AES-256-GCM",
+      "Payload": 256,
+      "Mean": 168.6,
+      "SD": 3.507135583350036,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_open",
+      "Param": "AES-256-GCM",
+      "Payload": 256,
+      "Mean": 157.6,
+      "SD": 3.4351128074635335,
+      "N": 5
+    },
+    {
+      "Op": "aes_cbc_hmac_seal",
+      "Param": "AES-256-CBC+HMAC",
+      "Payload": 256,
+      "Mean": 966.4,
+      "SD": 15.05988047761336,
+      "N": 5
+    },
+    {
+      "Op": "aes_cbc_hmac_open",
+      "Param": "AES-256-CBC+HMAC",
+      "Payload": 256,
+      "Mean": 853.4,
+      "SD": 9.60728889958036,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_seal",
+      "Param": "AES-128-GCM",
+      "Payload": 1024,
+      "Mean": 385.4,
+      "SD": 3.2093613071762426,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_open",
+      "Param": "AES-128-GCM",
+      "Payload": 1024,
+      "Mean": 376.8,
+      "SD": 2.6832815729997477,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_seal",
+      "Param": "AES-256-GCM",
+      "Payload": 1024,
+      "Mean": 405,
+      "SD": 2.345207879911715,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_open",
+      "Param": "AES-256-GCM",
+      "Payload": 1024,
+      "Mean": 395.4,
+      "SD": 5.683308895353129,
+      "N": 5
+    },
+    {
+      "Op": "aes_cbc_hmac_seal",
+      "Param": "AES-256-CBC+HMAC",
+      "Payload": 1024,
+      "Mean": 2127.2,
+      "SD": 23.34951819631403,
+      "N": 5
+    },
+    {
+      "Op": "aes_cbc_hmac_open",
+      "Param": "AES-256-CBC+HMAC",
+      "Payload": 1024,
+      "Mean": 1598,
+      "SD": 8.396427811873332,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_seal",
+      "Param": "AES-128-GCM",
+      "Payload": 16384,
+      "Mean": 4258.4,
+      "SD": 85.35396885909876,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_open",
+      "Param": "AES-128-GCM",
+      "Payload": 16384,
+      "Mean": 4385.4,
+      "SD": 69.53991659471559,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_seal",
+      "Param": "AES-256-GCM",
+      "Payload": 16384,
+      "Mean": 4654.8,
+      "SD": 66.11126984107928,
+      "N": 5
+    },
+    {
+      "Op": "aes_gcm_open",
+      "Param": "AES-256-GCM",
+      "Payload": 16384,
+      "Mean": 4691,
+      "SD": 39.89360851063739,
+      "N": 5
+    },
+    {
+      "Op": "aes_cbc_hmac_seal",
+      "Param": "AES-256-CBC+HMAC",
+      "Payload": 16384,
+      "Mean": 24591.2,
+      "SD": 270.51746708854125,
+      "N": 5
+    },
+    {
+      "Op": "aes_cbc_hmac_open",
+      "Param": "AES-256-CBC+HMAC",
+      "Payload": 16384,
+      "Mean": 16359.4,
+      "SD": 164.70974470261316,
+      "N": 5
+    },
+    {
+      "Op": "rsa_keygen",
+      "Param": "RSA-2048",
+      "Payload": 0,
+      "Mean": 47263918.2,
+      "SD": 6712410.458232922,
+      "N": 5
+    },
+    {
+      "Op": "rsa_oaep_wrap",
+      "Param": "RSA-2048",
+      "Payload": 32,
+      "Mean": 24231.2,
+      "SD": 343.1402045811595,
+      "N": 5
+    },
+    {
+      "Op": "rsa_oaep_unwrap",
+      "Param": "RSA-2048",
+      "Payload": 32,
+      "Mean": 748896.6,
+      "SD": 3689.1513658292743,
+      "N": 5
+    },
+    {
+      "Op": "rsa_pss_sign",
+      "Param": "RSA-2048",
+      "Payload": 256,
+      "Mean": 771996.2,
+      "SD": 3961.980022665435,
+      "N": 5
+    },
+    {
+      "Op": "rsa_pss_verify",
+      "Param": "RSA-2048",
+      "Payload": 256,
+      "Mean": 24268.8,
+      "SD": 244.08441162843644,
+      "N": 5
+    },
+    {
+      "Op": "rsa_keygen",
+      "Param": "RSA-3072",
+      "Payload": 0,
+      "Mean": 191695935,
+      "SD": 39018857.91598325,
+      "N": 5
+    },
+    {
+      "Op": "rsa_oaep_wrap",
+      "Param": "RSA-3072",
+      "Payload": 32,
+      "Mean": 108417.8,
+      "SD": 946.3253668797006,
+      "N": 5
+    },
+    {
+      "Op": "rsa_oaep_unwrap",
+      "Param": "RSA-3072",
+      "Payload": 32,
+      "Mean": 2099566.4,
+      "SD": 10860.157010835524,
+      "N": 5
+    },
+    {
+      "Op": "rsa_pss_sign",
+      "Param": "RSA-3072",
+      "Payload": 256,
+      "Mean": 2178256.4,
+      "SD": 18584.22935717271,
+      "N": 5
+    },
+    {
+      "Op": "rsa_pss_verify",
+      "Param": "RSA-3072",
+      "Payload": 256,
+      "Mean": 107793.2,
+      "SD": 2850.8751638751214,
+      "N": 5
+    },
+    {
+      "Op": "ecdh_keygen",
+      "Param": "X25519",
+      "Payload": 0,
+      "Mean": 35038.4,
+      "SD": 138.02463548222107,
+      "N": 5
+    },
+    {
+      "Op": "ecdh_agree",
+      "Param": "X25519",
+      "Payload": 0,
+      "Mean": 35036.4,
+      "SD": 527.9472511529916,
+      "N": 5
+    },
+    {
+      "Op": "ecdh_hkdf_sender_total",
+      "Param": "X25519",
+      "Payload": 32,
+      "Mean": 71488.4,
+      "SD": 372.73958737971475,
+      "N": 5
+    },
+    {
+      "Op": "ecdh_keygen",
+      "Param": "P-256",
+      "Payload": 0,
+      "Mean": 10169.2,
+      "SD": 105.75301414144185,
+      "N": 5
+    },
+    {
+      "Op": "ecdh_agree",
+      "Param": "P-256",
+      "Payload": 0,
+      "Mean": 40554.8,
+      "SD": 533.3270103791857,
+      "N": 5
+    },
+    {
+      "Op": "ecdh_hkdf_sender_total",
+      "Param": "P-256",
+      "Payload": 32,
+      "Mean": 52239.4,
+      "SD": 370.94244836632004,
+      "N": 5
+    },
+    {
+      "Op": "sig_keygen",
+      "Param": "Ed25519",
+      "Payload": 0,
+      "Mean": 14080,
+      "SD": 100.6106356206937,
+      "N": 5
+    },
+    {
+      "Op": "sig_sign",
+      "Param": "Ed25519",
+      "Payload": 256,
+      "Mean": 17333.8,
+      "SD": 60.15147545987546,
+      "N": 5
+    },
+    {
+      "Op": "sig_verify",
+      "Param": "Ed25519",
+      "Payload": 256,
+      "Mean": 39521.8,
+      "SD": 140.34849482627163,
+      "N": 5
+    },
+    {
+      "Op": "sig_sign",
+      "Param": "ECDSA-P256",
+      "Payload": 256,
+      "Mean": 24736.6,
+      "SD": 245.6243066147974,
+      "N": 5
+    },
+    {
+      "Op": "sig_verify",
+      "Param": "ECDSA-P256",
+      "Payload": 256,
+      "Mean": 54114,
+      "SD": 603.2590654105416,
+      "N": 5
+    },
+    {
+      "Op": "envelope_seal",
+      "Param": "RSA-3072",
+      "Payload": 118,
+      "Mean": 2312596.4,
+      "SD": 6972.973418850813,
+      "N": 5
+    },
+    {
+      "Op": "envelope_open",
+      "Param": "RSA-3072",
+      "Payload": 118,
+      "Mean": 2206534,
+      "SD": 19457.697114509723,
+      "N": 5
+    }
+  ]
+}
